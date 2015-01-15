@@ -1,0 +1,16 @@
+1. Update readfilesample.cpp to include reading and  writing using write(memoryblock, size)
+2. Update makefile to compile readfilesample
+2. Compare the original and the written file using diff.
+
+    diff orig.bmp new.bmp
+
+--------------------------
+
+dbblobsample
+- update makefile to compile dbblobsample
+- connect as exp1/exp1 to the database
+- read A.bmp into memory
+- write memory to Table_1
+- read content of Table_1
+- write back to a file b.bmp
+- compare a.bmp to b.bmp
